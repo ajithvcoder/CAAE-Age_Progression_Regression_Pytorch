@@ -11,16 +11,13 @@
 
 ## Colab Notebook
 
-Training - [Colab Notebook](Face_Aging_CAAE_Pytorch_UTK_Face_dataset.ipynb)
+Training - [Colab Notebook](CAAE_Age_Progression_Regression_UTK_Face_dataset.ipynb)
 
-Inference - [Colab Notebook]()
+Inference - [Colab Notebook]() - pending
 
 **Snapshot**
 
-![Training Snapshot](assests/snapshot_working_FaceCAAE.PNG)
-
-![Testing Snapshot]()
-
+![Training Snapshot](assests/snapshot_CAAE.PNG)
 
 
 ## Usage
@@ -48,10 +45,18 @@ output with 1.7k images trained for 50 epochs
 
 <br></br>
 
-**Irene, Korean Celebrity**
-
-<a href="https://imgur.com/dPpWVf5"><img src="https://i.imgur.com/dPpWVf5.png" title="source: imgur.com" /></a>
+## To-do:
+- [ ] Check the corretness of model 
+- [ ] Write inference code with trained weights
+- [ ] Release pretrained weights for this repo
 
 
 ## Credits
+- [Age Progression/Regression by Conditional Adversarial Autoencoder](http://web.eecs.utk.edu/~zzhang61/docs/papers/2017_CVPR_Age.pdf)
 - [Face-Aging-CAAE-Pytorch](https://github.com/Jooong/Face-Aging-CAAE-Pytorch)
+
+## Other creations
+- [AgeProgression-Pytorch](https://github.com/mattans/AgeProgression)
+- [AgeProgression-tensorflow](https://github.com/ZZUTK/Face-Aging-CAAE)
+
+
